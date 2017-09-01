@@ -1,0 +1,1 @@
+cd src; oasis setup; make; cp _build/offline.byte ../punter; chmod a+x ../punter

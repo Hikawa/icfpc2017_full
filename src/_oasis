@@ -1,0 +1,12 @@
+OASISFormat: 0.4
+Name:        punter
+Version:     0.0.0
+Synopsis:    icfpc 2017
+Authors:     sol
+License:     BSD-2-clause
+Plugins:     DevFiles (0.4)
+Executable offline
+  Path:       .
+  BuildTools: ocamlbuild
+  MainIs:     offline.ml
+  BuildDepends: core, threads, yojson
